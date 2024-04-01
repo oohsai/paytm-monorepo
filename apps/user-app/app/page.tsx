@@ -1,3 +1,8 @@
-export default function Page(): JSX.Element {
-  return <div className="text-3xl">Hey from the App</div>;
+"use client";
+
+import { useBalance } from "@repo/store/useBalance";
+
+export default function () {
+  const balance = useBalance();
+  return <div>hi there {balance}</div>;
 }
