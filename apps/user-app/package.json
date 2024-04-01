@@ -1,18 +1,20 @@
 {
-  "name": "docs",
+  "name": "web",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3001",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
     "@repo/ui": "*",
+    "autoprefixer": "^10.4.19",
     "next": "^14.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.1.1",
